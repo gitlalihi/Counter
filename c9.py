@@ -15,14 +15,14 @@ if __name__=='__main__':
     num=int(input("Enter your lists:"))
     for x in range(num):
        ele=input("Enter your elements:")
-       list.append(ele)
-    print("Your  First List is:",list) 
+       list1.append(ele)
+    print("Your  First List is:",list1) 
 
     list2=[]
     num=int(input("Enter your lists:"))
     for x in range(num):
        ele=input("Enter your elements:")
-       list.append(ele)
+       list2.append(ele)
     print("Your  Second List is:",list2) 
     
     
